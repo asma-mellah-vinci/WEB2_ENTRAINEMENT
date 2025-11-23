@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+// tableau en js
 const colors = ["red","green","blue","yellow","purple"];
 
 const ColorBox = () => {
