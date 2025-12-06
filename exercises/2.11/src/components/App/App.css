@@ -1,0 +1,30 @@
+.my-box {
+
+    margin: 0 auto; /* centre horizontalement */
+    width: 300px;   /* obligatoire pour que margin auto fonctionne */
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    background: #fff;
+    text-align: center; 
+    
+}
+
+form div {
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px; 
+}
+
+form label {
+    width: 140px;          /* TAILLE FIXE → super important */
+    font-weight: 600;
+}
+
+form input {
+    flex: 1;               /* prend tout l’espace à droite */
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
