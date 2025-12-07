@@ -5,9 +5,11 @@ import RandomDog from "../RandomDog/RandomDog";
 const App = () => {
     const [refreshKey , setRefreshKey] = useState(0);
 
+    // permet de refreshe la cle de la photo 
     const refreshDogs = () => {
         setRefreshKey(refreshKey + 1);
     };
+
 
     return (
         <div>
