@@ -1,0 +1,33 @@
+.movie-card {
+  width: 18rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  
+}
+
+.movie-card-body {
+  padding: 16px;
+}
+
+.card-delete-icon {
+  color: rgba(92, 12, 12, 0.612);
+  width: 50px;
+  margin: auto;
+  cursor: pointer;
+  margin-top: auto;
+  align-self: center;
+}
+
+.movie-card-image {
+  width: 100%;
+  display: block;
+
+  /* 👇 l’espace magique */
+  margin: 12px 0;
+
+  /* optionnel mais très clean */
+  border-radius: 6px;
+}

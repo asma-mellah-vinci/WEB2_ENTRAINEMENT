@@ -1,0 +1,55 @@
+.my-box {
+  width: 380px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.my-box div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.my-box label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.my-box input {
+  padding: 8px 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  background: #f7f7f7;
+  font-size: 0.95rem;
+}
+
+.my-box input:focus {
+  outline: none;
+  border-color: #b3b3b3;
+  background: #ffffff;
+}
+
+.my-box button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #e6e6e6;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.my-box button:hover {
+  background: #dcdcdc;
+}
